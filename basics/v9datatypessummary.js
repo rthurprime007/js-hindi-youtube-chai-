@@ -35,7 +35,7 @@ let myObj = {
 
 
 //*****************functions*************
-funstion ko declare krne k kafi tarike ha yaha hum variable wala tarika seekhenge
+function ko declare krne k kafi tarike ha yaha hum variable wala tarika seekhenge
 //function(){}  this is function
 const myFunction = function(){
     console.log("Hello World")
