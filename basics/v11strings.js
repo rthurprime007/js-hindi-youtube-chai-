@@ -40,3 +40,22 @@ console.log(newstring)   // result > call
 const anotherstring = gamename.slice(-9, 4) // -ve ka matlab piche se shru krna
 console.log(anotherstring) //result > all isko study kr
 
+const newstringone = "       javad       "
+console.log(newstringone);
+console.log(newstringone.trim()) // to remove unwanted spaces 
+
+
+const url = "https://javad.com//page%20first" //ye jo %20 hpota vese space ko kehet ha agar
+//isko ya kisi aur bhi cheez ko replace kese kre 
+console.log(url.replace('%20', '-')); 
+// result>  https://javad.com//page-first
+
+
+//agar koi word wagera find krna ho to
+console.log(url.includes('javad'))    //result> true
+console.log(url.includes('super'));   //result> false
+
+
+
+///////////string pr bohot achi pakad chahiye console pr dekho ya mdn pr dekho
+
