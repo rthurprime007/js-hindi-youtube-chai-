@@ -1,3 +1,3 @@
-let abc = 45
-let def = String(abc)
-console.log(typeof def);
+const gamename = "callofduty"
+
+console.log(gamename[8])
