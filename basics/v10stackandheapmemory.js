@@ -1,13 +1,13 @@
 //stack memory is used by primitive data set
 //heap memory is used by non primiotive dataset
 
-//> let aname = "javad"     /
+let aname = "javad"     /
         
-//>let anothername = aname                
-//>anothername = "arthur"
+let anothername = aname                
+anothername = "arthur"
 
-//>console.log(aname)
-//>console.log(anothername)
+console.log(aname)
+console.log(anothername)
 //ye string value yani (primitive) jo ki stack value main jata ha
 //isme agar anothername = aname kia ha to iska matlab (anothername) 
 // ko (aname) ki copy value mili ha to phir terminal main ye "javad"

@@ -1,3 +1,2 @@
-const gamename = "callofduty"
+console.log(Math.floor(Math.random()*10) + 1)
 
-console.log(gamename[8])

@@ -1,11 +1,11 @@
-//>const name = "javad"
-//>const born = 1998
+const name = "javad"
+const born = 1998
 
-//>console.log(name + born + "value") //lekin ye method theek nahi ha 
+console.log(name + born + "value") //lekin ye method theek nahi ha 
 
 // ek method hota ha directly variable  likhna console.log( `  ${} `)  iske andar
 
-//>console.log (`hello my name is ${name} and i was born on ${born}`)
+console.log (`hello my name is ${name} and i was born on ${born}`)
 
 //result > hello my name is javad and i was born on 1998
 
@@ -36,9 +36,21 @@ console.log(gamename.indexOf("o")) // o pr konsa no. ha  result 4
 
 const newstring = gamename.substring(0 , 4)  // 0 ka matlab c se shru krna anur 4 ka matlab shru ki char character
 console.log(newstring)   // result > call
+//console.log(gamename.substring(1,4)) >result = all
+//console.log(gamename.substring(2,4)) > result = ll
 
 const anotherstring = gamename.slice(-9, 4) // -ve ka matlab piche se shru krna
 console.log(anotherstring) //result > all isko study kr
+
+//difrference splice and string
+//1.works on array         works on string
+//2.changes original       does not change original
+//3 can delete or insert   only extracts
+//4.returns removed items   returns extracted strings
+
+//easy to remember
+//splice = surgery(cuts and change)
+//substring = copy(jut takes a piece  )
 
 const newstringone = "       javad       "
 console.log(newstringone);
