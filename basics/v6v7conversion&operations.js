@@ -30,7 +30,7 @@ let anyno = 89
 
 let kratos = String(anyno)
 console.log(kratos)
-//isko agar run krenge to terminal
+//isko agar run krenge to terminal main 89
 //lekin agar iska type dekhenge
 //>console.log(typeof kratos)
 //to iska type string hi ayega
@@ -73,6 +73,7 @@ gamecounter++
 //console.log(gamecounter) output 101
 //so whats the difference in prefix and postfix
 //study for it here (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment)
+//++x
 
 
 //also study (https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion)

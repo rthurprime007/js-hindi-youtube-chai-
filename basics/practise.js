@@ -1,4 +1,2 @@
-let anytime = new Date("01-12-2023")
-
-console.log(anytime.toLocaleString());
-
+console.log("2" == 2)   // == only check numbers
+console.log("2" === 2) 

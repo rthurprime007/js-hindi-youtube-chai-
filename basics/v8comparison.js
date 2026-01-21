@@ -25,6 +25,6 @@
 //***strict check ******
 // (===) = strict check
 
-console.log("2" == 2)   // == only check numbers
-console.log("2" === 2)  // === check numbers with datatype
+console.log("2" == 2)   // result > true         == only check numbers
+console.log("2" === 2)  // result > false      === check numbers with datatype 
 
