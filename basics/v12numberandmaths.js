@@ -1,4 +1,4 @@
-const score = 400 //vese to js ise no. hi define krega lekin
+const score = 400 //vese to js ase hi no.  define krega lekin
 const balance = new Number(100) //agar isko exclusively define krna ho 
 //console.log(score);  result> 400  
 //console.log(balance); result> [Number: 100] yaha machine specifically bta rahi ha ki number ha
@@ -8,7 +8,7 @@ const balance = new Number(100) //agar isko exclusively define krna ho
 
 //lekin isko hum string msin convert kre 
 console.log(balance.toString()) //> result 100
-//aur agar ab type of check kre to ye string hi dikhayega
+//aur agar ab typeof check kre to ye string hi dikhayega
 console.log(balance.toString().length) // ab kuch properties string ki bhi use kr skte ha
 //result> 3
 
