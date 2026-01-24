@@ -31,10 +31,11 @@ console.log(gamename.toUpperCase()) //touppercase is a prototype aur
 console.log(gamename.charAt(5)); // 5 konsa characte ha result f
 console.log(gamename.indexOf("o")) // o pr konsa no. ha  result 4
 
-//sabse aan ha prototype padne ka ki console pr dekheiye 
-//interview k lie prototype ki ek marticle bna le
+//sabse asan ha prototype padne ka ki console pr dekheiye 
+//interview k lie prototype ki ek article bna le
 
-const newstring = gamename.substring(0 , 4)  // 0 ka matlab c se shru krna anur 4 ka matlab shru ki char character
+const newstring = gamename.substring(0 , 4)  // 0 ka matlab c se shru krna aur 4 ka matlab 0 aur 4 k beech ke character 
+//excluding 4           start index up to and excluding the end index
 console.log(newstring)   // result > call
 //console.log(gamename.substring(1,4)) >result = all
 //console.log(gamename.substring(2,4)) > result = ll
@@ -42,11 +43,6 @@ console.log(newstring)   // result > call
 const anotherstring = gamename.slice(-9, 4) // -ve ka matlab piche se shru krna
 console.log(anotherstring) //result > all isko study kr
 
-//difrference splice and string
-//1.works on array         works on string
-//2.changes original       does not change original
-//3 can delete or insert   only extracts
-//4.returns removed items   returns extracted strings
 
 //easy to remember
 //splice = surgery(cuts and change)

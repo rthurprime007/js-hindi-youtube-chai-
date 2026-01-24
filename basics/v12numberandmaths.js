@@ -6,7 +6,7 @@ const balance = new Number(100) //agar isko exclusively define krna ho
 //liekin waha pr hum inke prtotypes bhi dekh skte ha
 //ye vo prototypes ha jo number vali ha
 
-//lekin isko hum string msin convert kre 
+//lekin isko hum string main convert kre 
 console.log(balance.toString()) //> result 100
 //aur agar ab typeof check kre to ye string hi dikhayega
 console.log(balance.toString().length) // ab kuch properties string ki bhi use kr skte ha
@@ -67,14 +67,3 @@ const max = 20
 
 console.log(Math.floor(Math.random()*(max - min + 1))+ min);
 //generic formuale ha vese to lekin phir bhi logic samaj lio
-
-
-
-
-
-
-
-
-
-
-
