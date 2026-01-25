@@ -111,9 +111,18 @@ let myarr = (3.5 , 4.8 ,5.9 ,6.7 ,7.3 ,7.7)
 //let newarr = new Number("myarr")
 console.log(Math.floor(Math.max (myarr)) ); //result> 7
 
+//*********************v13dateandtime********** */
+console.log(new Date()
+//directly can call data and time but to use prototype us variables
 
+//NEXT IS MY VERY FIRST USELESS CODE ON TIMESTAMP BTWEEN 20MAY2023 TO NOW
+let allnewdate = new Date (2023 , 4 , 20 )
 
+let tariq = Date.now()
 
+let timestamp = tariq - allnewdate
+
+console.log(Math.round(timestamp/31536000000)); 
 
 
 
