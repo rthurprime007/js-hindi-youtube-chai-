@@ -122,7 +122,9 @@ let tariq = Date.now()
 
 let timestamp = tariq - allnewdate
 
-console.log(Math.round(timestamp/31536000000)); 
+console.log(Math.round(timestamp/31536000000)); //ye milisecond ko years main kr dia
+
+
 
 
 
