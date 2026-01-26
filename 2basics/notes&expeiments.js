@@ -116,3 +116,86 @@ console.log(A); //RESULT> 5
 //Array.isArray()  "is this an array"
 
 
+
+
+
+
+
+
+
+
+//***************************v16objects */
+
+const mysym =  Symbol(123)
+
+const newobj = {
+    name : "javad",
+    [mysym] : "test"
+}
+console.log(mysym === newobj[mysym]) //result> false   //yaha pr bhi symbol same nahi ha
+
+
+
+
+//examle of joining object to a function
+const allnewjs = {
+    name: "javad",
+    Age:27, 
+    location: "meerut",
+    email: "javadahmed@gmail.com",
+    isloggedin : false,
+    lastlogin : ["sunday" , "monday" ]
+   }
+ 
+   allnewjs.new = function(){
+    console.log(`hello my name is ${this.name}
+        ,i am ${this.Age} years old
+        and my email is ${this.email}`)
+
+
+
+   }
+  
+   console.log(allnewjs.new())
+
+//**********************************v17v18objects2.js ***************/
+
+
+   //EXAMPLE of nested objects
+   const indiaschool = {
+       upschool: {
+        meerutschool : {
+            westendroad : "dewan public school",
+            bankstreet : "st. johns",
+            bacchapark : "blossoms school",
+            shivajiroad : "st thomas"
+        }
+       }
+} 
+console.log(indiaschool.upschool.meerutschool.bacchapark);
+
+
+
+
+//combining objects
+const obj1 = {game1:"call of duty" , game2: "gow" , game3: "pubg"}
+const obj2 = {player1:"dynamo", player2:"arthur gaming" , player3:"deimos gaming"}
+
+ console.log({...obj1 , ...obj2}); //result> {
+ //                                            game1: 'call of duty',
+ //                                             game2: 'gow',
+  //                                           game3: 'pubg',
+  //                                           player1: 'dynamo',
+  //                                           player2: 'arthur gaming',
+  //                                           player3: 'deimos gaming'
+//                                              }
+
+const obj3 = {...obj1 , ...obj2}
+console.log(obj3); //result > {
+//                             game1: 'call of duty',
+//                             game2: 'gow',
+//                             game3: 'pubg',
+//                             player1: 'dynamo',
+//                             player2: 'arthur gaming',
+//                              player3: 'deimos gaming'
+//                              }

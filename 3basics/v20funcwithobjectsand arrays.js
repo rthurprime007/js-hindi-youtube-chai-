@@ -9,7 +9,7 @@ console.log(calculatecartprice(200 , 400 ,500)); // result > 200 ab bhi 200 hi k
 //ab use krenge restoprator is problem ko solve krne k lie
 //inko calculate krna aage loop main seekhenge
 
-//restoperator (...) ten dot se symbolize hota vese spread operator bhi (...)
+//restoperator (...) teen dot se symbolize hota vese spread operator bhi (...)
 //se symbolize hota ha dono ka use case alaga ha 
 //vo age kabhi padhaenge
 
@@ -30,7 +30,7 @@ console.log(allnewcalculatecartprice(200 , 400 ,500 , 600)); //result> [ 500 , 6
 
 
 
-//***************** objects ith functions
+//***************** objects with functions
 
 const user = {
     coursename : "jsscript",
