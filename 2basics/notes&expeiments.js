@@ -1,4 +1,4 @@
-//************************v14arrays**************************** */
+//************************v14v15arrays**************************** */
 const myarr = [1 , 2 ,3 ,4]
 myarr.push(5 ,6)
 console.log(myarr)  //resullt = [ 1, 2, 3, 4, 5, 6 ]
@@ -63,3 +63,56 @@ const B = myarr.splice(2 , 0 , "RANI") //RESULT >b: [ 'javad', 'ahmed', 'RANI', 
 const B = myarr.splice(2 , 1 , "RANI") //RESULT >b: [ 'javad', 'ahmed', 'RANI', ' prime' ]
 const B = myarr.splice(2 , 0 , "RANI", "LAXMI") //RESULT>b: [ 'javad', 'ahmed', 'RANI', 'LAXMI', 'arthur', ' prime' ]
 myarr.SPLICE() // THIS IS ALSO A METHOD
+
+
+
+
+
+const greek = ["kratos", "ares", "zeus" , "athena"]
+const norse = ["odin", "baldur" , "thor", "heimdal"]
+
+const A = greek.push(norse)
+
+//PUSH DOES TWO THINGS
+//1.it adds elements to the original array
+//2.it returns the new length of the array (not the array)
+//3. i.e it has changed the original value
+console.log(greek);  //result> [
+                              //  'kratos',
+                              //   'ares',
+                              //   'zeus',
+                             //  'athena',
+                            // [ 'odin', 'baldur', 'thor', 'heimdal' ]
+                             //   ]
+console.log(A);      //result> 5
+
+
+
+const greek = ["kratos", "ares", "zeus" , "athena"]
+const norse = ["odin", "baldur" , "thor", "heimdal"]
+
+const A = greek.unshift(norse)
+
+console.log(greek);  //RESULT>  [ 'odin', 'baldur', 'thor', 'heimdal' ],
+                              // 'kratos',
+                              //'ares',
+                              //'zeus',
+                              //'athena'
+                            //]
+console.log(A); //RESULT> 5
+
+//START OF ARRAY                                END OF ARRAY
+ //unshift()                                     //push() 
+//shift()                                        //pop
+
+//note: i thought we could use slice to do the same thing as unshift and push
+//      but the thing is splice does not effect the original value
+
+
+
+
+////         
+//includes()   "does this array contains this value"
+//Array.isArray()  "is this an array"
+
+
