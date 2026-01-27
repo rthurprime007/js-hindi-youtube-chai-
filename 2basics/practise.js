@@ -1,14 +1,8 @@
-const tinder ={
-    id:"angela",
-     age:42,
-    
-    id2:"mindi",
-     age2:43,
-    
-id3: "dani",
-        age3: 43
-    }
+const run = {
+    name:"javad",
+    age: 27
+}
 
+run.email = "javvadahmed@gmail.com"
 
-const {id2 : id4} = tinder
-console.log(id4)
+console.log(run);

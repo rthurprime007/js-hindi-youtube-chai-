@@ -134,6 +134,15 @@ const newobj = {
 }
 console.log(mysym === newobj[mysym]) //result> false   //yaha pr bhi symbol same nahi ha
 
+//example joining a key and value from outside
+const run = {
+    name:"javad",
+    age: 27
+}
+
+run.email = "javvadahmed@gmail.com" // i think this will  be treated as (key and value) from inside
+                                    // 
+console.log(run);
 
 
 
@@ -157,6 +166,21 @@ const allnewjs = {
    }
   
    console.log(allnewjs.new())
+
+
+
+   //to call a nested object through [ ] notation
+   const tinder ={
+    id:"angela",
+     age:42,
+    
+    id2 : { name:"mindi",
+        age2:43,},
+    
+id3: "dani",
+        age3: 43
+    }
+console.log(tinder["id2"]["name"]); //result > mindi
 
 //**********************************v17v18objects2.js ***************/
 

@@ -37,7 +37,7 @@ const regularuser = {
 const obj1 = {1:"a", 2:"b"}
 const obj2 = {3:"c", 4:"d"}
 
-const objcombine = {obj1, obj2}; 
+const objcombine = {obj1 + obj2}; 
 //>console.log(objcombine); //result > { obj1: { '1': 'a', '2': 'b' }, obj2: { '3': 'c', '4': 'd' } }
                          // ye to same hua jese array main array
                          //aur ye theek se combine bhi nahi hua
