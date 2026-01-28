@@ -5,7 +5,7 @@ const user ={
     welcomemessage:function(){
         //console.log(`${username} , welocome to website`); isme direct mian username nahi kr skta 
         console.log(`${this.username} , welocome to website`); //ye this lagana padega
-                                                               // ye ab current context to use krega
+                                                               // ye ab current context ko use krega
         
     }
 }
@@ -49,7 +49,7 @@ newuser.username = "sam"  //jab teno ko print kia result>   {
 
 console.log(this); //result> {}   agar ese hi print kr denge bahae kahi to ye empty dikhayga
                                   // iska matlab koi current context ha hi nahi
-                                  // ye  node jo ham kr rahe ha yaha ye empty dikhayega
+                                  // ye  node main jo ham kr rahe ha yaha ye empty dikhayega
                                   // console pr yeh empty window object rahega //interview ques
                                   //  waha pr hum iske events bhi capture kr skte ha
 

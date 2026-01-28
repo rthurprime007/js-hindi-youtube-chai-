@@ -91,7 +91,7 @@ function one(){
 
 
 
-//for if */
+///////////////////for if */
 // if (true) {
 //      const username = "javad"
 //      if(username==="javad"){
